@@ -38,7 +38,13 @@ $("#startButton").on("click", function() {
 
 $("#submitButton").on("click", function() {
     $("#questionSection").css("display","none");
+    $("#gameSection").css("display","none");
     $("#resultsSection").css("display","block");
+});
+
+
+$('#tryAgainButton').click(function() {
+    location.reload();
 });
 
   

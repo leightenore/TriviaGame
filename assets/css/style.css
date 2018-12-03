@@ -14,13 +14,20 @@ body {
 #title-text {
     font-family: 'Candal', sans-serif;
     font-size: 55px;
+    text-align: center;
 }
 
-#questionSection,
-#resultsSection {
+#questionSection {
     background-color: rgb(241, 242, 243);
     margin: 0px auto 50px auto;
     padding: 0px 75px 75px 75px;
+    display: none;
+}
+
+#resultsSection {
+    background-color: rgb(241, 242, 243);
+    margin: 50px auto 50px auto;
+    padding: 75px;
     display: none;
 }
 
