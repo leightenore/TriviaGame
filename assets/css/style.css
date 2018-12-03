@@ -1,0 +1,35 @@
+body {
+    background-image: url(../images/backgrd.jpg);
+    background-size: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#gameSection {
+    background-color: rgb(241, 242, 243);
+    margin: 50px auto 0px auto;
+    padding: 100px;
+    text-align: center;
+}
+
+#title-text {
+    font-family: 'Candal', sans-serif;
+    font-size: 55px;
+}
+
+#questionSection,
+#resultsSection {
+    background-color: rgb(241, 242, 243);
+    margin: 0px auto 50px auto;
+    padding: 0px 75px 75px 75px;
+    display: none;
+}
+
+#timer {
+    text-align: center;
+}
+
+#ckgif {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
