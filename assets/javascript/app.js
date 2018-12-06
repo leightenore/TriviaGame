@@ -15,6 +15,8 @@ function endQuiz() {
         $("#resultsSection").css("display","block");
         $(window).scrollTop(0);
         answerCheck();
+        document.getElementById("audio1").pause();
+        document.getElementById("audio2").play();
     }
 }
 
@@ -157,6 +159,8 @@ $("#startButton").on("click", function() {
     $("#questionSection").css("display","block");
 
     $("#startButton").css("display","none");
+
+    document.getElementById("audio1").play();
     
     var timerLogic = setInterval(function() {
         timer--;
@@ -176,6 +180,7 @@ $("#submitButton").on("click", function() {
     $("#resultsSection").css("display","block");
     $(window).scrollTop(0);
     answerCheck();
+    document.getElementById("audio1").pause();
 });
 
 
