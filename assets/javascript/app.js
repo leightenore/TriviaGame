@@ -1,4 +1,5 @@
 //GLOBAL VARIABLES
+//======================================================================================
 
 var timer = 60;
 var correct = 0;
@@ -7,6 +8,7 @@ var unanswered = 0;
 var correctAnswers = ["The Revenant", "Johnny Depp", "Gale", "The Nightmare Before Christmas", "The Bodyguard", "Ian McKellen", "Kathryn Bigelow", "Walt Disney", "Jaws", "Pirates of the Caribbean: On Stranger Tides"];
 
 //FUNCTIONS
+//======================================================================================
 
 function endQuiz() {
     if (timer === 0) {
@@ -149,6 +151,7 @@ function answerCheck() {
 }
 
 //MAIN PROCESS
+//======================================================================================
 
 $("#correctAnswers").text("Correct Answers: " + correct);
 $("#incorrectAnswers").text("Incorrect Answers: " + incorrect);
